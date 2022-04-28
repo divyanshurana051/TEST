@@ -1,0 +1,5 @@
+FROM ubuntu
+WORKDIR /tmp
+RUN echo "my moto is to be devops engineer like prasant bhaiya" > /tmp/testfile
+COPY testfile1 /tmp
+ADD test.tar.gz /tmp
