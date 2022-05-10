@@ -1,2 +1,2 @@
 FROM ubuntu
-RUN echo "my moto is to be devops engineer like prasant bhaiya" > /tmp/testfile
+VOLUME ["/myvolume1"]
